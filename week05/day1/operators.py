@@ -1,4 +1,3 @@
-#!/bin/env python3
 
 #declare 3 integers 2, 3, 4
 #update the first to itself + 1

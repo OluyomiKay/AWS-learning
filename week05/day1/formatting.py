@@ -1,4 +1,4 @@
-#!/bin/env python3
+
 
 name="Tom"
 balance=150.90

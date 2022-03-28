@@ -1,4 +1,4 @@
-#!/bin/env python3
+
 
 s = "Goanna Restart 2022 - Python"
 
