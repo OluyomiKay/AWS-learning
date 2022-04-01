@@ -32,8 +32,8 @@ def validatediv(a,b):
     assert b==0 , "Cannot divide by Zero"
 
 def show():
-    a = read("a = ")     #debugging read a
-    b = read("b = ")     #debugging read b
+    a = read("a = ")     
+    b = read("b = ")     
     
     #The unit tests dynamically run with the script
     # verifyinput(a)
@@ -65,7 +65,6 @@ def show():
         logger.exception(f'Cannot divide by 0 - b = 0')
     except TypeError:
         logger.exception(f'Unsupported operand type(s) for / ')
-        
-     
+ 
 show()
 

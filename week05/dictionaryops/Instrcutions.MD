@@ -11,7 +11,7 @@ Develop a project that includes one module script 'mymodule.py' and 'dictionary.
 - update a student name by key
 - delete a student by key
 
-* dictionary.py should a function:
+* dictionary.py should have a function:
 - access all mymodule.py functions and execute them
 
 ```
