@@ -1,5 +1,0 @@
-SELECT TOP (1000) [ID]
-      ,[Name]
-      ,[Mark]
-      ,[Grade]
-  FROM [university].[dbo].[students]
