@@ -1,6 +1,6 @@
 ## Python Challenge Excercises
 
-* Complete the 4 challenge excercies using any IDE or Text-Editor
+* Complete the 4 challenge exercises using any IDE or Text-Editor
 * Research common solutions online to complete each task
   
 ### Exercise 1 - The Middle Average Algorithm:
@@ -70,14 +70,14 @@ Sample I/O:
 
 ### Exercise 4 - The File Encryption Algorithm:
 
-* For this excercise using the text file: demo.txt. 
+* For this exercise using the text file: demo.txt. 
 
 ```
 Pass in a filename as an argument to the Python script. The script should do the following:
 -   Check if the file exists, if not print out a flag message
 -   Read in a pattern from STDIN (a pattern is a string we want to find in the file)
 -   Read in a replacement string from STDIN
--   Find all pattern occurances in the file and replace it with the replacement string
+-   Find all pattern occurrence's in the file and replace it with the replacement string
 -   Print the updated file contents
 
 Sample I/O: (capture filename as first argument)
@@ -104,8 +104,8 @@ Sample I/O:
     Prefix: <prefix value>
     Network Binary: <binary value>
     Network Decimal: <decimal value>
-    Mask Binary: <binary value>
-    Mask Decimal: <decimal value>
+    Network Mask Binary: <binary value>
+    Network Mask Decimal: <decimal value>
     Usable Subnets: <subnets value>
     Usable Hosts: <host value>
 
@@ -202,7 +202,7 @@ Sample I/O:
 
 ### Exercise 9 - The Cities Statistics Algorithm:
 
-* For this excercise using the CSV file: worldcities.csv. The file contains cities and its population.
+* For this exercise using the CSV file: worldcities.csv. The file contains cities and its population.
 * Complete this algorithm using functions. Design your code to be re-usable using parametric functions in Python.
 
 ```
@@ -213,7 +213,6 @@ Map the worldcities.csv file to a Python dictionary and complete the following s
 Sample I/O:
 
     Cities with population greater than 1 million: <output the value>
-    Matching words = 3
     Mean = <mean value>
     Variance = <variance value>
     Standard Deviation = <standard deviation value>
@@ -226,11 +225,11 @@ Sample I/O:
 
 ```
 Determine the speed (v) of a satellite at a position A(x,y) from the center of the Earth.[Refer to the Satellite Orbital Image Below]
-Read in first the (x,y) position of the satelllite from STDIN and based on these values calculate and print the satelllite speed (v).
+Read in first the (x,y) position of the satellite from STDIN and based on these values calculate and print the satellite speed (v).
 
 Given are the following constants:
-Gravity value G = 9.807 m/s²
-Earth mass    M = 5.9722 x 1024 kilograms
+Gravity value G = 6.67*10-11Nm2/kg2
+Earth mass    M = 5.9722 x 10^24 kilograms
 Earth radius  R = 6,371 km
 
 

@@ -1,0 +1,24 @@
+AWSTemplateFormatVersion: '2010-09-09'
+
+Description: <your stack description here>
+
+Resources:
+  dynamodbTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      AttributeDefinitions:
+        - 
+          AttributeName: id 
+          AttributeType: S
+      BillingMode: PAY_PER_REQUEST
+      KeySchema:
+        - 
+          AttributeName: id 
+          KeyType: HASH      
+Outputs:
+  TableName:
+    Description: DyanmoDB demo Table
+    Value: !Ref dynamodbTable
+    Export:
+      Name: !Sub ${AWS::StackName}--ddb-table-name
+      
